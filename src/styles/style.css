@@ -210,10 +210,9 @@ figure .img-project {
 
 .projects-container {
     margin-top: 50px;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .projects-container .item-content {
@@ -228,7 +227,7 @@ figure .img-project {
 
 .card {
     width: 400px;
-    padding: 20px;
+    padding: 15px;
     border: 2px solid orange;
     border-radius: 15px;
     box-shadow: 15px 15px 0 orange;
@@ -253,9 +252,6 @@ figure .img-project {
     transition: 0.5s ease-in-out;
 }
 
-.flex {
-    display: flex;
-}
 
 /* End : Expand Component Syle */
 
@@ -379,6 +375,10 @@ figure .img-project {
 
 .shadow-left {
     box-shadow: -20px 0 orange;
+}
+
+.flex {
+    display: flex;
 }
 /* Utilities */
 
@@ -594,8 +594,9 @@ figure .img-project {
 
     .projects-container {
         margin-top: 50px;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .card {
