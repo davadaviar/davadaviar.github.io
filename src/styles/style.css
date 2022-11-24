@@ -22,6 +22,11 @@ h2 {
     font-size: 40px;
 }
 
+h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
 hr {
     margin-top: 100px;
 }
@@ -204,7 +209,6 @@ figure .img-project {
 }
 
 .projects-container {
-    padding-right: 15px;
     margin-top: 50px;
     display: flex;
     width: 100%;
@@ -309,6 +313,31 @@ figure .img-project {
 
 /* End : Frameworks */
 
+/* Start : Working Experiences */
+
+.work-experience__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work-experience__item {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.work-experience__item img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.work-experience__detail p {
+    font-size: 18px;
+}
+
+/* End : Working Experiences */
+
 /* Animation */
 
 @keyframes animate {
@@ -323,7 +352,41 @@ figure .img-project {
     }
 }
 
+/* Animation */
+
+
+/* Utilities */
+
+.mt-5 {
+    margin-top: 5em;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.shadow-right {
+    box-shadow: 20px 0 orange;
+}
+
+.shadow-left {
+    box-shadow: -20px 0 orange;
+}
+/* Utilities */
+
 @media only screen and (max-width: 768px) {
+
+    h4 {
+        font-size: 28px;
+    }
 
     .frameworks-container {
         grid-template-rows: repeat(2, 1fr);
@@ -336,6 +399,27 @@ figure .img-project {
     }
 
     .item-box p {
+        font-size: 16px;
+    }
+
+    .work-experience__list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-experience__item {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .work-experience__item img {
+        width: 150px;
+    }
+
+    .work-experience__detail p {
         font-size: 16px;
     }
 }
