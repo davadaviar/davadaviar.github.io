@@ -15,7 +15,7 @@ body {
 }
 
 p {
-    line-height: 27px;
+    line-height: 28px;
 }
 
 h2 {
@@ -24,6 +24,11 @@ h2 {
 
 h4 {
     font-size: 30px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 20px;
     margin: 0;
 }
 
@@ -126,7 +131,7 @@ nav a:hover {
 
 /* Start : Perkenalan */
 
-#perkenalan {
+#introduce {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,6 +339,45 @@ figure .img-project {
 
 /* End : Working Experiences */
 
+/* Start : Mini Blogs */
+
+.blog-link {
+    color: orange;
+}
+
+.mini-blog p {
+    font-size: 18px;
+}
+
+.mini-blog__container {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.mini-blog__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mini-blog__item img {
+    width: 250px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.mini-blog-item__detail p {
+    font-size: 16px;
+}
+
+.mini-blog__item:hover {
+    cursor: pointer;
+}
+
+/* End : Mini Blogs */
+
 /* Animation */
 
 @keyframes animate {
@@ -380,6 +424,7 @@ figure .img-project {
 .flex {
     display: flex;
 }
+
 /* Utilities */
 
 @media only screen and (max-width: 768px) {
@@ -389,7 +434,7 @@ figure .img-project {
     }
 
     .frameworks-container {
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
@@ -422,6 +467,12 @@ figure .img-project {
     .work-experience__detail p {
         font-size: 16px;
     }
+
+    .mini-blog__container {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -438,6 +489,20 @@ figure .img-project {
 
     .item-box p {
         font-size: 18px
+    }
+
+    .mini-blog__container {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .mini-blog__item img {
+        width: 200px;
+    }
+
+    .mini-blog-item__detail {
+        width: 200px;
     }
 
 }
@@ -457,6 +522,21 @@ figure .img-project {
     .item-box p {
         font-size: 20px
     }
+
+    .mini-blog__container {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    .mini-blog__item img {
+        width: 250px;
+    }
+
+    .mini-blog-item__detail {
+        width: 250px;
+    }
+
 
 }
 
@@ -542,7 +622,7 @@ figure .img-project {
 
     /* Start : Perkenalan */
 
-    #perkenalan {
+    #introduce {
         flex-direction: column-reverse;
     }
 
