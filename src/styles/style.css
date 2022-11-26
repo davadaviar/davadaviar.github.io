@@ -378,6 +378,28 @@ figure .img-project {
 
 /* End : Mini Blogs */
 
+/* Start : Motto */
+
+.motto-item__container {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   align-items: center;
+   margin-top: 5em;
+}
+
+.motto-item__left, .motto-item__right {
+    width: 800px;
+}
+
+.motto-img {
+    position: absolute;
+    right: 4em;
+    z-index: -1;
+}
+
+/* End : Motto */
+
 /* Animation */
 
 @keyframes animate {
@@ -407,6 +429,10 @@ figure .img-project {
 
 .absolute {
     position: absolute;
+}
+
+.relative {
+    position: relative;
 }
 
 .relative {
@@ -712,5 +738,22 @@ figure .img-project {
     }
 
     /* End : Coding Journeys */
+
+    .motto-item__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 2.5em;
+     }
+     
+     .motto-item__left, .motto-item__right {
+         width: 320px;
+     }
+     
+     .motto-img {
+        width: 300px;
+        position: static;
+     }
 
 }
