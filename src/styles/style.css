@@ -450,9 +450,9 @@ footer p {
         transform: translateX(0%);
     }
 
-    50%
+    100%
     {
-        transform: translateX(50%);
+        transform: translateX(-100%);
     }
 }
 
