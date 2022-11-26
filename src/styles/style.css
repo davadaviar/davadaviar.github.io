@@ -400,6 +400,39 @@ figure .img-project {
 
 /* End : Motto */
 
+/* Start : Get in Touch */
+
+.get-in-touch__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-in-touch__headline {
+    font-size: 100px;
+    margin: 50px;
+}
+
+.social-media {
+    display: flex;
+    gap: 40px;
+}
+
+.social-media__item {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.social-media__item:hover {
+    color: orange;
+    transition: 0.3s;
+}
+/* End : Get in Touch */
+
 /* Animation */
 
 @keyframes animate {
@@ -408,9 +441,9 @@ figure .img-project {
         transform: translateX(0%);
     }
 
-    100%
+    50%
     {
-        transform: translateX(-100%);
+        transform: translateX(50%);
     }
 }
 
@@ -499,6 +532,47 @@ figure .img-project {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
+
+    .motto-item__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 2.5em;
+     }
+     
+     .motto-item__left, .motto-item__right {
+         width: 320px;
+     }
+     
+     .motto-img {
+        width: 320px;
+        position: static;
+     }
+
+    .get-in-touch__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .get-in-touch__headline {
+        font-size: 60px;
+        margin: 30px;
+    }
+    
+    .social-media {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .social-media__item {
+        font-size: 30px;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -531,6 +605,40 @@ figure .img-project {
         width: 200px;
     }
 
+    .motto-item__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 3em;
+     }
+     
+     .motto-item__left, .motto-item__right {
+         width: 380px;
+     }
+     
+     .motto-img {
+         width: 220px;
+         position: absolute;
+         right: 2.5em;
+         z-index: -1;
+     }
+
+    .get-in-touch__headline {
+        font-size: 70px;
+        margin: 40px;
+    }
+    
+    .social-media {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .social-media__item {
+        font-size: 40px;
+        padding: 10px;
+        border-radius: 8px;
+    }
 }
 
 @media only screen and (min-width: 982px) {
@@ -563,6 +671,24 @@ figure .img-project {
         width: 250px;
     }
 
+    .motto-item__container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        margin-top: 5em;
+     }
+     
+     .motto-item__left, .motto-item__right {
+         width: 800px;
+     }
+     
+     .motto-img {
+         width: 400px;
+         position: absolute;
+         right: 4em;
+         z-index: -1;
+     }
 
 }
 
@@ -738,22 +864,5 @@ figure .img-project {
     }
 
     /* End : Coding Journeys */
-
-    .motto-item__container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-        margin-top: 2.5em;
-     }
-     
-     .motto-item__left, .motto-item__right {
-         width: 320px;
-     }
-     
-     .motto-img {
-        width: 300px;
-        position: static;
-     }
 
 }
