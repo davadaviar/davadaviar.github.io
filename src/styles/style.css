@@ -433,6 +433,15 @@ figure .img-project {
 }
 /* End : Get in Touch */
 
+/* Start : Footer */
+
+footer p {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* End : Footer */
+
 /* Animation */
 
 @keyframes animate {
