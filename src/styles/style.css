@@ -15,7 +15,7 @@ body {
     margin: 0;
     background-color: #181325;
     color: white;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 p {
@@ -874,14 +874,14 @@ footer p {
         align-items: center;
         padding: 100px 0 50px 0;
         z-index: -1;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         box-shadow: 0 4px 12px 2px #0f0c17;
         transition: all 0.5s;
         opacity: 0;
     }
 
     nav ul.active {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
 
