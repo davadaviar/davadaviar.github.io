@@ -67,16 +67,37 @@ header {
     display: inline;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.blog-notif {
+    padding: 2px 50px;
+    background-color: #372b52;
+    text-align: center;
+    letter-spacing: 0.7px;
+}
+
+.notif-sign {
+    animation: beep 2.5s linear infinite;
+}
+
+.notif-blog__btn {
+    color: orange;
+    margin-left: 10px;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #251D3A;
-    padding: 20px 50px;
+    padding: 12px 50px;
     position: sticky;
     top: 0;
-    box-shadow: 0 4px 12px 2px #0f0c17;
-    z-index: 5;
+    box-shadow: 0 12px 15px 2px #0f0c17;
 }
 
 .logo {
@@ -84,7 +105,7 @@ nav {
 }
 
 nav ul {
-    width: 25%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -106,6 +127,7 @@ nav a:hover {
     color: orange;
     font-weight: bold;
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 .menu-btn {
@@ -456,6 +478,18 @@ footer p {
     }
 }
 
+@keyframes beep {
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 /* Animation */
 
 
@@ -499,6 +533,28 @@ footer p {
 
     h4 {
         font-size: 28px;
+    }
+
+    .blog-notif {
+        padding: 2px 20px;
+        background-color: #372b52;
+        text-align: center;
+        letter-spacing: 0.7px;
+    }
+
+    .blog-notif p {
+        font-size: 12px;
+        line-height: 1.7em;
+        letter-spacing: 0.5px;
+    }
+    
+    .notif-sign {
+        animation: beep 2.5s linear infinite;
+    }
+    
+    .notif-blog__btn {
+        color: orange;
+        margin-left: 5px;
     }
 
     .frameworks-container {
@@ -580,6 +636,10 @@ footer p {
         font-size: 30px;
         padding: 8px;
         border-radius: 6px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
     
 }
@@ -729,7 +789,7 @@ footer p {
     /* Start : Navbar */
 
     nav {
-        padding: 15px 30px;
+        padding: 10px 30px;
     }
 
     nav ul {
