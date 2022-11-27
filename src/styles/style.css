@@ -92,6 +92,7 @@ header {
 .navbar {
     position: sticky;
     top: 0;
+    left: 0;
     z-index: 5;
 }
 
@@ -871,6 +872,7 @@ footer p {
         background-color: #251D3A;
         display: flex;
         flex-direction: column;
+        gap: 30px;
         justify-content: space-around;
         align-items: center;
         padding: 100px 0 50px 0;
