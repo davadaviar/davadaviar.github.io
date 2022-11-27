@@ -40,6 +40,23 @@ hr {
     margin-top: 100px;
 }
 
+/* Start : 404 */
+
+.not-found__content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   margin-top: 12em;
+}
+
+.emoticon {
+    font-size: 150px;
+    margin: 0;
+}
+
+/* End : 404 */
+
 /* Start : Jumbotron */
 
 .jumbotron {
@@ -538,6 +555,28 @@ footer p {
     h4 {
         font-size: 28px;
     }
+
+    .not-found {
+        padding: 0 50px;
+    }
+
+    .not-found__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 12em;
+     }
+
+     .not-found__content h1 {
+        padding: 0 30px;
+        align-items: center;
+     }
+     
+     .emoticon {
+         font-size: 60px;
+         margin: 0;
+     }
 
     .blog-notif {
         padding: 2px 20px;
