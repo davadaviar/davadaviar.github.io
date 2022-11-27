@@ -100,6 +100,8 @@ header {
     background-color: #372b52;
     text-align: center;
     letter-spacing: 0.7px;
+    position: sticky;
+    z-index: 10;
 }
 
 .notif-sign {
@@ -874,7 +876,7 @@ footer p {
         justify-content: space-around;
         align-items: center;
         padding: 100px 0 50px 0;
-        z-index: -1;
+        z-index: -10;
         transform: translateY(-100%);
         box-shadow: 0 4px 12px 2px #0f0c17;
         transition: all 0.5s;
