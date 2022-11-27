@@ -4,6 +4,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+
 }
 
 * {
@@ -71,6 +72,7 @@ hr {
     font-size: 20px;
     color: white;
     align-items: center;
+    margin-top: 9%;
 }
 
 .jumbotron p {
@@ -90,9 +92,9 @@ header {
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    left: 0;
     z-index: 5;
 }
 
@@ -848,6 +850,7 @@ footer p {
     .jumbotron {
         padding: 50px;
         font-size: 18px;
+        margin-top: 30%;
     }
 
     .jumbotron p {
