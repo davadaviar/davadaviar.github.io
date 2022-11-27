@@ -100,8 +100,6 @@ header {
     background-color: #372b52;
     text-align: center;
     letter-spacing: 0.7px;
-    position: sticky;
-    z-index: 10;
 }
 
 .notif-sign {
@@ -877,14 +875,14 @@ footer p {
         align-items: center;
         padding: 100px 0 50px 0;
         z-index: -10;
-        transform: translateY(-100%);
+        transform: translateX(100%);
         box-shadow: 0 4px 12px 2px #0f0c17;
         transition: all 0.5s;
         opacity: 0;
     }
 
     nav ul.active {
-        transform: translateY(0);
+        transform: translateX(0);
         opacity: 1;
     }
 
