@@ -42,17 +42,17 @@
                 <p>
                     <b class="text-orange notif-sign">New Blog :</b>
                     Make a Movie Search with Vanila Javascript & JQuery
-                    <a href="" class="notif-blog__btn">Click This Link</a>
+                    <a href="#mini-blog" class="notif-blog__btn">Click This Link</a>
                 </p>
             </div>
     
             <nav>
                 <h2 class="logo">Dav.</h2>
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolios</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#introduce">About Me</a></li>
+                    <li><a href="#design-projects">Portfolios</a></li>
+                    <li><a href="#mini-blog">Blogs</a></li>
+                    <li><a href="#get-in-touch">Contact</a></li>
                 </ul>
     
                 <div class="menu-btn">
@@ -341,6 +341,15 @@
 
                 <div class="mini-blog__container mt-5">
                     <div class="mini-blog__item">
+                        <img src="src/images/movie.jpg" alt="todolist">
+                        <div class="mini-blog-item__detail">
+                            <h5>Make a Movie Search with Vanila Javascript & JQuery</h5>
+                            <p>
+                               Simple apps for your portfolio project use only Vanila Javascript and JQuery. In here you'll learn about http request use free public API with AJAX...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mini-blog__item">
                         <img src="src/images/blog.jpg" alt="todolist">
                         <div class="mini-blog-item__detail">
                             <h5>Make a Simple Todolist with PHP CLI Base</h5>
@@ -355,15 +364,6 @@
                             <h5>Make a Simple Todolist with PHP OOP Paradigm</h5>
                             <p>
                                 This is the next level of basic PHP todolist before. In this step you learn about Object Oriented Programming to make your code more effective and reusable...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mini-blog__item">
-                        <img src="src/images/movie.jpg" alt="todolist">
-                        <div class="mini-blog-item__detail">
-                            <h5>Make a Movie Search with Vanila Javascript & JQuery</h5>
-                            <p>
-                               Simple apps for your portfolio project use only Vanila Javascript and JQuery. In here you'll learn about http request use free public API with AJAX...
                             </p>
                         </div>
                     </div>
@@ -454,6 +454,7 @@
     </main>
 
     <script src="src/scripts/navbar.js"></script>
+    <script src="src/scripts/blog.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
