@@ -295,7 +295,35 @@ figure .img-project {
 
 /* End : Design Projects */
 
-/* Start : Expand Component Style*/
+/* Start : Web Projects */
+
+.web-project__list {
+    margin-top: 5em;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.web-project__item {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.web-project__item img {
+    width: 420px;
+    border-radius: 12px;
+}
+
+.call-to-action {
+    width: 420px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+/* End : Web Projects */
+
 
 .btn {
     padding: 15px 20px;
@@ -307,13 +335,24 @@ figure .img-project {
     text-decoration: none;
 }
 
+.btn-outline {
+    border: 2px solid orange;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+}
+
+.btn-outline:hover {
+    cursor: pointer;
+}
+
 .btn:hover {
     box-shadow: 4px 8px white;
     transition: 0.5s ease-in-out;
 }
 
-
-/* End : Expand Component Syle */
 
 /* Start : Coding Journeys */
 
@@ -986,6 +1025,34 @@ footer p {
     }
 
     /* End : Design Projects */
+
+    .web-project__list {
+        margin-top: 2em;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        align-items: center;
+    }
+    
+    .web-project__item {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .web-project__item img {
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+    .call-to-action {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
 
     /* Start : Coding Journeys */
 
