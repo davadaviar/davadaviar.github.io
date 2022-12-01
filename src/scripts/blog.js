@@ -2,7 +2,7 @@ const blogItems = document.querySelectorAll(".mini-blog__item");
 
 
 function firstBlogItem() {
-    window.location.href = "https://www.notion.so/davdadaviar/Basic-Tips-UI-Rapi-Pemula-dfff8cb4087949cbad9eae3f829172a4"
+    window.location.href = "https://davdadaviar.notion.site/Basic-Tips-UI-Rapi-Pemula-dfff8cb4087949cbad9eae3f829172a4"
 }
 
 function secondBlogItem() {
