@@ -1,19 +1,20 @@
 const blogItems = document.querySelectorAll(".mini-blog__item");
 
+
 function firstBlogItem() {
-    window.location.href = "https://davdadaviar.notion.site/Web-Movie-Search-with-API-AJAX-JQuery-664bca241c314135bd08ee4e5d198e18"
+    window.location.href = "https://www.notion.so/davdadaviar/Basic-Tips-UI-Rapi-Pemula-dfff8cb4087949cbad9eae3f829172a4"
 }
 
 function secondBlogItem() {
-    window.location.href = "https://davdadaviar.notion.site/Catatan-dokumentasi-Todo-List-App-92f9feb8c26046658c7cc7d5842e032d"
+    window.location.href = "https://davdadaviar.notion.site/Web-Movie-Search-with-API-AJAX-JQuery-664bca241c314135bd08ee4e5d198e18"
 }
 
 function thirdBlogItem() {
-    window.location.href = "https://davdadaviar.notion.site/Catatan-Dokumentasi-OOP-2693ebaf6d80488b82232ed89fff4b8a"
+    window.location.href = "https://davdadaviar.notion.site/Catatan-dokumentasi-Todo-List-App-92f9feb8c26046658c7cc7d5842e032d"
 }
 
 function fourthBlogItem() {
-    window.location.href = "404.html"
+    window.location.href = "https://davdadaviar.notion.site/Catatan-Dokumentasi-OOP-2693ebaf6d80488b82232ed89fff4b8a"
 }
 
 function fifthBlogItem() {
