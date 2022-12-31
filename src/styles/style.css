@@ -611,7 +611,7 @@ footer p {
 
 /* Utilities */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     h4 {
         font-size: 28px;
@@ -622,8 +622,8 @@ footer p {
         position: absolute;
         left: 1.2em;
         margin-top: -42em;
-        animation: spin 5s linear infinite;
     }
+
 
     .not-found {
         padding: 0 50px;
@@ -756,7 +756,7 @@ footer p {
     
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .frameworks-container {
         grid-template-rows: repeat(2, 1fr);
@@ -822,7 +822,7 @@ footer p {
     }
 }
 
-@media only screen and (min-width: 982px) {
+@media screen and (min-width: 982px) {
 
     .frameworks-container {
         grid-template-rows: repeat(1, 1fr);
