@@ -212,6 +212,7 @@ nav a:hover {
     right: 20em;
     margin-top: -10em;
     animation: spin 5s linear infinite;
+    display: none;
 }
 
 /* End : Perkenalan */
@@ -617,12 +618,12 @@ footer p {
         font-size: 28px;
     }
 
-    .text-arc {
+    /* .text-arc {
         width: 120px;
         position: absolute;
         left: 1.2em;
         margin-top: -42em;
-    }
+    } */
 
 
     .not-found {
